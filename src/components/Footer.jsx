@@ -1,5 +1,6 @@
 import React from 'react';
 import { Linkedin, Youtube, Twitter } from 'lucide-react';
+import logo from '../assets/clueso_logo.png';
 
 const Footer = () => {
     return (
@@ -15,7 +16,7 @@ const Footer = () => {
                     <div>
                         <div style={{ marginBottom: '1.5rem' }}>
                             <img
-                                src="src/assets/clueso_logo.png"
+                                src={logo}
                                 alt="Clueso Logo"
                                 style={{ height: '32px', display: 'block' }}
                             />
