@@ -5,6 +5,16 @@ Built with **React (Vite)**, **Express**, and **MongoDB**.
 
 🔗 **Live Demo:** [https://clueso-clone-one.vercel.app/](https://clueso-clone-one.vercel.app/)
 
+## 📸 Glimpse of Website
+
+| Landing Page |
+| :---: |
+| ![Landing Page](./assets/screenshots/landing_page.png) |
+
+| Login Page | Signup Page |
+| :---: | :---: |
+| ![Login Page](./assets/screenshots/login_page.png) | ![Signup Page](./assets/screenshots/signup_page.png) |
+
 ---
 
 ## 🏗️ Architecture Overview
