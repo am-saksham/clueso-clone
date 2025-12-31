@@ -13,11 +13,11 @@ The application follows a **Monorepo-style** structure adapted for Vercel Server
 
 ```mermaid
 graph TD
-    Client[React Client (Vite)]
-    Server[Express Server (Serverless)]
-    DB[(MongoDB Atlas)]
-    Google[Google OAuth]
-    Email[Gmail Service]
+    Client["React Client (Vite)"]
+    Server["Express Server (Serverless)"]
+    DB[("MongoDB Atlas")]
+    Google["Google OAuth"]
+    Email["Gmail Service"]
 
     Client -- "REST API (/api)" --> Server
     Server -- "Mongoose" --> DB
